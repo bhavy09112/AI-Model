@@ -12,14 +12,15 @@ def main():
         client = GroqClient()
         
         # Example: Get a simple completion
-        prompt = "What is the capital of France?"
-        print(f"Prompt: {prompt}")
+        prompt = input("How can I help you? \n")
+        # print(f"Prompt: {prompt}")
         response = client.get_completion(prompt)
         print(f"Response: {response}\n")
         
         # Example: Chat conversation
+        more = input("Your reply- ")
         messages = [
-            {"role": "user", "content": "Hello, what can you do?"},
+            {"role": "user", "content": more},
         ]
         print(f"User: {messages[0]['content']}")
         chat_response = client.get_chat_response(messages)
