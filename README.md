@@ -105,11 +105,3 @@ MIT License
 
 - [Groq Documentation](https://console.groq.com/docs)
 - [Groq Python SDK](https://github.com/groq/groq-python)
-- [Hackathon Information](#) - Add your hackathon link here
-
-## Notes for Hackathon
-
-- Remember to add your `.env` file to `.gitignore` (already done)
-- Never commit your API keys
-- Test your code regularly with Groq's fast inference
-- Use the notebooks directory for experimentation and documentation
